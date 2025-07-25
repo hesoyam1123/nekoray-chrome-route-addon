@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    width: 11rem;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+button {
+    padding: 1rem 1rem;
+    cursor: pointer;
+    border-radius: 14px;
+    border-style: none;
+    background-color: #979797;
+    margin-top: 0.42rem;
+    margin-bottom: 0.42rem;
+}
+
+.ipinfo {
+    margin-top: 0.42rem;
+    margin-bottom: 0.42rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 2px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+pre {
+    margin: 0px;
+    text-align: center;
+    text-wrap: pretty;
+    overflow-wrap: anywhere;
+}
+
+.resizable-img {
+    max-width: 8rem;
+}
+

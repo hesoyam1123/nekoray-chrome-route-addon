@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "NekoBox Route",
+    "version": "0.0.1",
+    "update_url": "https://www.gstatic.com/generate_204",
+    "description": "nekobox route",
+    "permissions": ["storage","proxy","webRequest","background","declarativeContent","activeTab","tabs"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "enable.png",
+            "48": "enable.png",
+            "128": "enable.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "19": "enable-19.png",
+        "128": "enable.png",
+        "16": "disable.png",
+        "19": "disable-19.png",
+        "48": "disable.png",
+        "128": "disable.png"
+    }
+}

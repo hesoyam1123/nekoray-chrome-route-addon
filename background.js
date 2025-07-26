@@ -1,7 +1,7 @@
 // background.js
 
 let currentProxyEnabled = false;
-let iconPath = 'enable.png';
+let iconPath = 'disable.png';
 
 chrome.storage.sync.get('iconPath', function(data) {
     iconPath = data.iconPath;

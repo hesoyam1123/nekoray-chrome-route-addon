@@ -8,9 +8,9 @@
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
-            "16": "enable.png",
-            "48": "enable.png",
-            "128": "enable.png"
+            "16": "disable.png",
+            "48": "disable.png",
+            "128": "disable.png"
         }
     },
     "background": {
